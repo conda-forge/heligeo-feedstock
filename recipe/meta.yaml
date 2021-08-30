@@ -1,5 +1,5 @@
 {% set name = "heligeo" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/heligeo-{{ version }}.tar.gz
-  sha256: b468de262275c4b41755112549e69f1db749edd8b8320e01b34e2a8670d748e4
+  sha256: 4039d22cb0e4d924b99839c809fe5aae6d0977ca314804228f1e10a16a8b590a
 
 build:
   number: 0
